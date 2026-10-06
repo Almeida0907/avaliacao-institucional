@@ -125,3 +125,10 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+INSTALLED_APPS = [
+
+    'alunos',
+    'disciplinas',
+    'avaliacoes',
+]
