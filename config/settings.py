@@ -132,3 +132,17 @@ INSTALLED_APPS = [
     'disciplinas',
     'avaliacoes',
 ]
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    
+    # Seus apps criados:
+    'alunos',
+    'disciplinas',
+    'avaliacoes',
+]
